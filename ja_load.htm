@@ -17,13 +17,13 @@
 			//use AJAX to load external file data via a link with an href of "load_content1"
 			$('a[href="load_content1"]').click(function(e){
                 e.preventDefault(); //stop default action of the link
-                $('#myDiv').load('include/content1.php');  //relative path to file to load
+                $('#myDiv').load('include/content1.html');  //relative path to file to load
             });
             
             //use AJAX to load external file data via a link with an href of "load_content2"
 			$('a[href="load_content2"]').click(function(e){
                 e.preventDefault(); //stop default action of the link
-                $('#myDiv').load('include/content2.php');  //relative path to file to load
+                $('#myDiv').load('include/content2.html');  //relative path to file to load
             });
             
             //use AJAX to load external images from 2 different files with an href of "load_content2"
